@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    padding: 0 130px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+nav .nav_left{
+    display: flex;
+    align-items: center;
+}
+.nav_left .left_left,.left_right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.nav_left .left_right i{
+    margin-right:10px;
+}
+.nav_left .left_left i{
+    margin-right:10px;
+}
+.nav_right i{
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+/* main dizayn */
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+main .main_left img{
+    width: 200px;
+    margin-left: 130px;
+}
+main .main_right{
+    display: flex;
+    margin-right: 150px;
+}
+ main .main_right h3{
+    margin-right: 60px;
+    color: blue;
+}
+
+.reklama h1 {
+    text-align: center;
+}
+.rasm_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rasm_page img{
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+}
+.rasm_page p{
+    width: 500px;
+}
+.rasm_page .p_h1 h1{
+    text-align: start;
+    margin-bottom: 10px;
+}
+footer{
+    width: 100%;
+    background: rgb(18,56,218);
+    background: linear-gradient(90deg, rgba(18,56,218,1) 7%, rgba(52,49,198,1) 31%, rgba(218,18,100,1) 68%, rgba(219,22,22,1) 91%);    color: white;
+    display: flex;
+    padding: 40px 130px;
+    margin-top: 30px;
+}
+footer .footer_left{
+    width: 650px;
+    margin-right: 130px;
+}
